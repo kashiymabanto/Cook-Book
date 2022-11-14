@@ -7,6 +7,7 @@
     <title>Cook Book</title>
 </head>
 <body>
+    <div class="back-button marg-15"><a href="home.html"><button>Back</button></a></div>
     <div class="parent">
         <div class="column-1">
            <h1 class="marg-15">Title</h1>
@@ -51,6 +52,11 @@
         background-color: palevioletred;
     }
 
+    .back-button {
+        position: absolute;
+        right: 0px;
+    }
+
     .marg-15 {
         margin-right: 15px;
         margin-left: 15px;
@@ -63,10 +69,8 @@
 
     .container {
         display: flex;
-        background: red;
+        /* background: red; */
         width: 100%;
-        align-items: center;
-        justify-content: space-around;
     }
 
     .parent {
@@ -77,14 +81,14 @@
         justify-content: center;
     }
     .column-2 {
-        background: red;
+        /* background: red; */
         height: 70vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .column-1 {
-        background: yellow;
+        /* background: yellow; */
         height: 70vh;
     }
     .column-1,
