@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/Nightqt.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Title</h1>
+            <p class="padd-15">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, quas amet quis recusandae repudiandae nulla sed nesciunt 
+                excepturi quaerat eaque assumenda facilis voluptatibus cum dignissimos quibusdam sint ducimus debitis repellendus error quod.</p>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Title</h2>
+                    <div class="list-container">
+                        <ul>
+                            <li>brill</li>
+                            <li>brill</li>
+                            <li>brill</li>
+                            <li>brill</li>
+                            <li>brill</li>
+                            <li>brill</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">Title</h2>
+                    <div class="list-container">
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus atque eum perferendis.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-color: palevioletred;
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .parent {
+        /* padding-top: 10vh; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        background: red;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: yellow;
+        height: 90vh;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 100%;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: center;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>
